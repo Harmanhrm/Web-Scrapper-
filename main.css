@@ -1,0 +1,58 @@
+/* Reset some default browser styles */
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the hero section */
+  #hero {
+    background-color: #000000; /* You can replace this with your preferred color */
+    color: white;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* Style the hero title */
+  .hero-title {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  #button {
+    background-color: #ffffff; /* You can replace this with your preferred color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .searchbutton {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  /* Style the name */
+  .hero-title br::after {
+    content: "Harmandeep Singh | Student Software Engineer";
+    font-weight: bold;
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .searchbutton {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Add some styles to the links (optional) */
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Add hover effect for links (optional) */
+  a:hover {
+    text-decoration: underline;
+  }
+  
